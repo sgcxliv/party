@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>party</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page-bg" aria-hidden="true">
+    <div class="page-bg__layer is-active"></div>
+    <div class="page-bg__layer"></div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-logo">
+      <div class="logo-square"></div>
+      <span>party</span>
+    </div>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <span class="sep">|</span>
+      <a href="#cohorts">cohorts</a>
+      <span class="sep">|</span>
+      <a href="#careers">careers</a>
+      <span class="sep">|</span>
+      <a href="#contact">contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <img class="phone" src="phone.png" alt="Party app" />
+
+    <h1 class="headline">
+      <div class="headline-backdrop">
+        <span class="line1 city-line">
+          <span class="city-name" id="city-name">San Francisco</span>
+        </span>
+        <span class="line1">is your</span>
+      </div>
+      <span class="line2">playground…</span>
+    </h1>
+
+    <div class="right-col">
+      <div class="waitlist">
+        <h2 class="waitlist-title">get on the list!</h2>
+        <input type="text" placeholder="your name" />
+        <input type="email" placeholder="your best email" />
+        <input type="tel" placeholder="phone number" />
+        <button>join the waitlist</button>
+      </div>
+      <p class="tagline">join a <span class="orange">party.</span></p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-layout">
+      <div class="polaroid-stack">
+        <img class="polaroid" src="polaroid-1.png" alt="Cohort polaroid 1" />
+        <img class="polaroid" src="polaroid-2.png" alt="Cohort polaroid 2" />
+        <img class="polaroid" src="polaroid-3.png" alt="Cohort polaroid 3" />
+        <img class="polaroid" src="polaroid-4.png" alt="Cohort polaroid 4" />
+      </div>
+
+      <div class="about-grid">
+        <blockquote class="quote-box">
+          <p>be honest. when was the last time you did something <span class="highlight">spontaneous?</span></p>
+        </blockquote>
+        <div class="info-box">
+          <p>join a 10-week season with strangers in <span id="about-city">San Francisco</span>, soon to be your <span class="orange">party.</span></p>
+          <p>we've curated a series of events for you to start <span class="orange">living again—just let it happen.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
